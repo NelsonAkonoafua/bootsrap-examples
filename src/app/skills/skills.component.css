@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@500;600;700&family=Roboto&display=swap');
+body{
+      background: #f2f2f2;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  }
+  section{
+    background-color: rgb(249, 152, 34);
+    text-align: center;
+  }
+
+  .bigsix{
+    border: 3px;
+    border-bottom-right-radius: 45%;
+  }
+
+  .container{
+    color: white;
+    text-align: right;
+    margin: 2em;
+    display: block;
+    border: 2px;
+    position: relative;
+  }
+    .col-1{
+        font-size: 3em;
+        display: flex;
+        margin: 30px;
+    }
+    .col-2{
+        font-size: 3em;
+        display: flex;
+        margin: 30px 60px 0 80px;
+    }
+    .col-3{
+        font-size: 3em;
+        display: flex;
+        padding: 30px 90px 30px 120px;
+    }
+
+    #text{
+        text-decoration: none;
+        text-align: center;
+        font-size: 2em;
+        color: black;
+        word-spacing: .3em;
+    }
+
+    a{
+        color: rgb(103, 80, 80);
+    }

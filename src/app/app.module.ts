@@ -8,6 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ContactComponent } from './contact/contact.component';
+import { EndComponent } from './end/end.component';
 
 
 
@@ -18,7 +19,8 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     SkillsComponent,
     ExperienceComponent,
-    ContactComponent
+    ContactComponent,
+    EndComponent
   ],
   imports: [
     BrowserModule,
