@@ -30,7 +30,7 @@ h1{
 .container{
   display: grid;
   margin: 15px;
-  grid-template-columns: repeat(5, minmax(170px));
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
 }
 
 i{
