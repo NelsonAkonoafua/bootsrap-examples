@@ -1,4 +1,4 @@
-function buton(){
+function button(){
 const mobileBtn = document.getElementById('mobile-menu')
     nav= document.querySelector('nav');
     mobileBtnExit = document.getElement('mobile-exit');
