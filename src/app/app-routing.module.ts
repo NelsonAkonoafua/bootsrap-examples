@@ -8,13 +8,13 @@ import { ContactComponent } from './contact/contact.component';
 const routes: Routes = [
   
   {path: 'about', component:AboutComponent},
-  { path: '', redirectTo: '/about', pathMatch: 'full' },
+  
   {path: 'skills', component:SkillsComponent},
-  { path: '', redirectTo: '/skills', pathMatch: 'full' },
+ 
   {path: 'experience', component:ExperienceComponent},
-  { path: '', redirectTo: '/experience', pathMatch: 'full' },
+
   {path: 'contact', component:ContactComponent},
-  { path: '', redirectTo: '/contact', pathMatch: 'full' },
+
   
 
 ];

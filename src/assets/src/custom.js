@@ -6,6 +6,6 @@ mobileBtn.addEventListener('click', () => {
     nav.classList.add('menu-btn')  
     }) 
 mobileBtnExit .addEventListener('click', () => {
-        nav.classList.remove('menu-btn')  
+        nav.classlist.remove('menu-btn')  
         })    
 }
