@@ -94,10 +94,11 @@ a:hover{
 .contact-right{
      color: darkgrey;
 }
-h2{
+h3{
      padding-top: 1.2em;
      font-size: 2em;
-     text-transform: uppercase;
+     text-transform: lowercase;
+     
 }
 span{
      color: rgb(143, 143, 230);

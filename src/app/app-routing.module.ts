@@ -7,15 +7,10 @@ import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   
-  {path: 'about', component:AboutComponent},
-  
+  {path: 'about', component:AboutComponent}, 
   {path: 'skills', component:SkillsComponent},
- 
   {path: 'experience', component:ExperienceComponent},
-
   {path: 'contact', component:ContactComponent},
-
-  
 
 ];
 
