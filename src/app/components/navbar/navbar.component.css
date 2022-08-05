@@ -3,6 +3,8 @@
 body{
       background: rgb(103, 97, 97);
       margin: 0;
+      height: 100%;
+      width: 100%;
       font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   }
 
