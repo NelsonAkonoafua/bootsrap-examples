@@ -3,7 +3,7 @@
         <li class="logotype">
             <a href="#">NelsonAkonoafua</a>
         </li>
-        <li class="burger">
+        <li class="burger" (click)="toggleMenu()">
             <i class="material-icons">{{ isMenuOpen ? "close" : "menu"}}</i>
         </li>
         <li class="menu" [class.is-open]="isMenuOpen">
