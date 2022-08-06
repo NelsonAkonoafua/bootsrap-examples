@@ -9,6 +9,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ContactComponent } from './contact/contact.component';
 import { EndComponent } from './end/end.component';
+import { HomeComponent } from './home/home.component';
+import { BottomComponent } from './bottom/bottom.component';
 
 
 
@@ -20,7 +22,9 @@ import { EndComponent } from './end/end.component';
     SkillsComponent,
     ExperienceComponent,
     ContactComponent,
-    EndComponent
+    EndComponent,
+    HomeComponent,
+    BottomComponent
   ],
   imports: [
     BrowserModule,

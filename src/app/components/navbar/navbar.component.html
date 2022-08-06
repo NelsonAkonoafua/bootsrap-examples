@@ -1,34 +1,20 @@
-<body>
-    <div class="navbar">
-        <div class="v-container">
-            <a class="hog" href="#"><span>Nelson</span> Akonoafua</a>
+<nav id="first">
+    <ul>
+        <li class="logotype">
+            <a href="#">NelsonAkonoafua</a>
+        </li>
+        <li class="burger">
+            <i class="material-icons">{{ isMenuOpen ? "close" : "menu"}}</i>
+        </li>
+        <li class="menu" [class.is-open]="isMenuOpen">
+            <a class="menu-item" href="#" >Home</a>
+            <a class="menu-item" href="#" >About</a>
+            <a class="menu-item" href="#" >Experience</a>
+            <a class="menu-item" href="#" >Skills</a>
+            <a class="menu-item" href="#" >Contact</a>
 
-            <a id="mobile-menu" class="menu-cta" href="#" ><i class='bx bx-menu'></i></a>
-            
-                <nav>
-                    <a id="mobile-exit" class="mobile-menu-exit" href="#"><i class='bx bxs-exit'></i></a>
-                    <ul class="primary">
-                        <li class="current"><a href="#">Home</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Experience</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-
-            
-        </div>
-    </div>
-    
-    <section class="grid"> 
-        <div class="left-col">
-            <img src="assets/images/cas.png" class= "hero" alt="casual pose" >
-        </div> 
-        <div class="text">Hi, my name is <span>Nelson</span>. <br> I am a <span>frontend developer </span>
-        </div> 
-    </section><br>
-
-  
-    
-</body>
+        </li>
+    </ul>
+</nav>
 
   
