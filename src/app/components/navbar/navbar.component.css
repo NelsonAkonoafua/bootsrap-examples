@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@500;600;700&family=Roboto&display=swap');
-.first{
+#first{
   background: #fff;
-  height: 400px;
+  height: 50px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
 }
 
@@ -15,8 +15,31 @@ ul{
   height: 100%;
 }
 
-.first ul .logotype{
+.logotype{
+  padding: 0 10px;
+  color: cyan;
+  text-decoration: none;
+}
 
+.logotype:hover{
+  font-weight: bold;
+}
+
+.burger{
+  padding: 0 10px;
+  border-left: 1px solid #eee;
+  display: none;
+  cursor: pointer;
+}
+
+i{
+  color: #999;
+  line-height: 50px;
+}
+@media (max-width: 400px){
+  i{
+    display:block;
+  }
 }
 
 .menu{
@@ -31,14 +54,14 @@ ul{
   .menu{
   display: none;
   }
-  .menu .is-open {
+  .menuIsOpen {
     display: block;
     position: absolute;
     top: 52px;
     background: #fff;
     width: 100%;
   }
-  .menu .is-open .menu-item{
+  .menuIsOpen .menu-item{
     border-bottom: 1px solid #cccccc;
   }
 }
