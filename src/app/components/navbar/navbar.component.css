@@ -21,9 +21,7 @@ ul{
   text-decoration: none;
 }
 
-.logotype:hover{
-  font-weight: bold;
-}
+
 
 .burger{
   padding: 0 10px;
@@ -50,18 +48,19 @@ i{
 
 
 
-@media (max-width: 400px){
+
+@media (max-width: 535px){
   .menu{
   display: none;
   }
-  .menuIsOpen {
+  .is-open{
     display: block;
     position: absolute;
     top: 52px;
     background: #fff;
     width: 100%;
   }
-  .menuIsOpen .menu-item{
+  .is-open .menu-item{
     border-bottom: 1px solid #cccccc;
   }
 }
@@ -75,7 +74,12 @@ i{
   font-size: 0.6rem;
   font-weight: 500;
 }
-@media (max-width: 400px){
+
+.menu-item:hover{
+  font-weight: bold;
+}
+
+@media (max-width: 535px){
   .menu-item{
     height: 40px
 
