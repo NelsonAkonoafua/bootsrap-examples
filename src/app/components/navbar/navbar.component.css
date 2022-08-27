@@ -31,9 +31,10 @@ ul{
 }
 
 i{
-  color: #999;
+  color: rgb(15, 14, 14);
   line-height: 50px;
 }
+
 @media (max-width: 400px){
   i{
     display:block;
@@ -53,14 +54,14 @@ i{
   .menu{
   display: none;
   }
-  .is-open{
+  .IsMenuOpen{
     display: block;
     position: absolute;
     top: 52px;
     background: #fff;
     width: 100%;
   }
-  .is-open .menu-item{
+  .IsMenuOpen .menu-item{
     border-bottom: 1px solid #cccccc;
   }
 }
@@ -82,6 +83,5 @@ i{
 @media (max-width: 535px){
   .menu-item{
     height: 40px
-
   }
 }

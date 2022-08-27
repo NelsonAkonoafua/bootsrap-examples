@@ -1,4 +1,51 @@
 body{
-    height: 100vh;
-    background: linear-gradient(red, blue );
+    height: 100%;
+    font-family:  'Trebuchet MS', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(185deg, rgb(240, 233, 233), rgb(13, 13, 55) );
+    
+}
+.container{
+    text-align: center;
+}
+.text-box{
+    letter-spacing: 0.2em;
+    padding-top: 130px;
+    
+}
+.text-box h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #3f51b5;
+}
+p{
+    padding-top: 20px;
+}
+span{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.user{
+    width: 50%;
+    padding-top: 3em;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 770px){
+    .user{
+        justify-items: center;
+        text-align: center;
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 1330px){
+    .text-box{
+        text-align: center;
+        font-size: 25px;
+    }
+    .user{
+        text-align: center;
+        width: 70%;
+    }
 }

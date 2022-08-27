@@ -1,6 +1,4 @@
 
-
-
 function button(){
 const mobileBtn = document.getElementById('mobile-menu')
     nav= document.querySelector('nav');

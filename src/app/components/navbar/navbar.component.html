@@ -1,6 +1,8 @@
+
+
 <nav id="first">
     <ul>
-        <li class="logotype">
+        <li *ngFor="let Menu" class="logotype">
             <a href="#">NelsonAkonoafua</a>
         </li>
         <li class="burger" (click)="toggleMenu()">
@@ -16,5 +18,3 @@
         </li>
     </ul>
 </nav>
-
-  

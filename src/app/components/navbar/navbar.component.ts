@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Location } from '@angular/common';
+import { ActivatedRoute } from '@angular/router';
+
 
 @Component({
   selector: 'app-navbar',
@@ -11,5 +14,8 @@ export class NavbarComponent {
   toggleMenu(): void{
     this.isMenuOpen = !this.isMenuOpen;
   }
- 
-}
+  
+  constructor(
+    private route: ActivatedRoute,
+    private location:Location
+  ){}}

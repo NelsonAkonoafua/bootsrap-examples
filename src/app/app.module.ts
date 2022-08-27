@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { EndComponent } from './end/end.component';
 import { HomeComponent } from './home/home.component';
 import { BottomComponent } from './bottom/bottom.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -28,7 +29,8 @@ import { BottomComponent } from './bottom/bottom.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

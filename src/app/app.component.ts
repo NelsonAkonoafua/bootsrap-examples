@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+declare const sendEmail: any
 
 @Component({
   selector: 'app-root',
@@ -8,5 +9,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'bootstrap-example2';
 
-  
 }
